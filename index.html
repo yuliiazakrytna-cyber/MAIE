@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>OPERATION: LONDON — Agent Dossier // CIARA</title>
+<meta name="description" content="Classified. For the eyes of Agent Ciara only. A spy-themed interactive mission across London." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕵️</text></svg>" />
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Oswald:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ BOOT / ACCESS TERMINAL ============ -->
+<div id="terminal" class="terminal">
+  <div class="terminal-window">
+    <div class="terminal-bar"><span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span><span class="term-title">SIS // SECURE TERMINAL — VAUXHALL CROSS</span></div>
+    <pre id="bootlog" class="bootlog"></pre>
+    <div id="auth" class="auth hidden">
+      <p class="auth-prompt">IDENTITY VERIFICATION REQUIRED</p>
+      <label for="agentname">ENTER AGENT CODENAME:</label>
+      <div class="auth-row">
+        <input id="agentname" type="text" autocomplete="off" placeholder="type here…" maxlength="20" />
+        <button id="authbtn">AUTHENTICATE</button>
+      </div>
+      <p class="hint">Hint: the dossier already knows you, Agent. Just hit AUTHENTICATE.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ NOISE + SCANLINES OVERLAY ============ -->
+<div class="scanlines" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ MAIN ============ -->
+<main id="app" class="app hidden">
+
+  <!-- top status bar -->
+  <header class="topbar">
+    <div class="brand">🕵️ <span>SECRET&nbsp;INTELLIGENCE&nbsp;SERVICE</span></div>
+    <nav class="nav">
+      <a href="#brief">Briefing</a>
+      <a href="#dossier">Dossier</a>
+      <a href="#cipher">Cipher</a>
+      <a href="#map">London Map</a>
+      <a href="#gadgets">Gadgets</a>
+      <a href="#accept">Accept</a>
+    </nav>
+    <div class="clock"><span id="clock">--:--:--</span><span class="zone">GMT · LONDON</span></div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="stamp stamp-topsecret">TOP SECRET</div>
+    <div class="stamp stamp-eyes">EYES ONLY</div>
+    <div class="hero-inner">
+      <p class="kicker">// CLASSIFICATION: ULTRA · CASE FILE 007-LDN</p>
+      <h1 class="title">OPERATION<br /><span class="title-accent">LONDON</span></h1>
+      <p class="codename">FOR THE EYES OF <strong id="hero-agent">AGENT CIARA</strong> ONLY</p>
+      <p class="tagline">The city is the puzzle. You are the only one who can solve it.</p>
+      <a href="#brief" class="cta">▸ OPEN MISSION BRIEFING</a>
+    </div>
+    <!-- skyline -->
+    <div class="skyline" aria-hidden="true">
+      <svg viewBox="0 0 1200 240" preserveAspectRatio="xMidYMax meet">
+        <!-- Big Ben -->
+        <g class="bb">
+          <rect x="120" y="60" width="34" height="160"/>
+          <polygon points="120,60 154,60 137,20"/>
+          <rect x="124" y="78" width="26" height="26" class="clockface"/>
+          <line x1="137" y1="91" x2="137" y2="82" class="hand"/>
+          <line x1="137" y1="91" x2="145" y2="91" class="hand"/>
+        </g>
+        <!-- London Eye -->
+        <g class="eye">
+          <circle cx="330" cy="120" r="70"/>
+          <circle cx="330" cy="120" r="8" class="hub"/>
+          <line x1="330" y1="120" x2="330" y2="220"/>
+        </g>
+        <!-- Shard -->
+        <polygon class="shard" points="520,220 545,40 560,220"/>
+        <!-- St Paul's dome -->
+        <g class="stpauls">
+          <rect x="640" y="150" width="80" height="70"/>
+          <path d="M640 150 Q680 90 720 150 Z"/>
+          <rect x="676" y="70" width="8" height="40"/>
+        </g>
+        <!-- Tower Bridge -->
+        <g class="bridge">
+          <rect x="820" y="120" width="26" height="100"/>
+          <rect x="940" y="120" width="26" height="100"/>
+          <rect x="846" y="150" width="94" height="14"/>
+          <path d="M820 120 Q893 90 966 120" fill="none"/>
+          <rect x="824" y="96" width="18" height="24"/>
+          <rect x="944" y="96" width="18" height="24"/>
+        </g>
+        <!-- Gherkin -->
+        <ellipse class="gherkin" cx="1080" cy="150" rx="26" ry="74"/>
+        <rect class="ground" x="0" y="218" width="1200" height="22"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============ BRIEFING ============ -->
+  <section id="brief" class="section">
+    <h2 class="sec-title"><span class="num">01</span> MISSION BRIEFING</h2>
+    <div class="brief-grid">
+      <article class="card typewriter-card">
+        <div class="paper-tape"></div>
+        <p class="from">FROM: <strong>M</strong> &nbsp;·&nbsp; TO: <strong>Agent Ciara</strong></p>
+        <p class="re">RE: Operation London — immediate deployment</p>
+        <hr/>
+        <p id="brief-text" class="brief-text"></p>
+        <p class="sign">— M<span class="cursor">▌</span></p>
+      </article>
+      <aside class="card intel-card">
+        <h3>FIELD INTEL</h3>
+        <ul class="intel">
+          <li><span>📍 THEATRE OF OPS</span> London, United Kingdom</li>
+          <li><span>🎯 OBJECTIVE</span> Recover the 5 lost clues hidden across the city</li>
+          <li><span>🕒 WINDOW</span> The whole trip — clock's already ticking</li>
+          <li><span>☕ COVER STORY</span> Tourist. Drink tea. Act normal.</li>
+          <li><span>⚠️ THREAT LEVEL</span> <span class="threat">ELEVATED</span></li>
+        </ul>
+        <div class="progress-wrap">
+          <p class="progress-label">CLUES RECOVERED: <span id="clue-count">0</span> / 5</p>
+          <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ DOSSIER ============ -->
+  <section id="dossier" class="section">
+    <h2 class="sec-title"><span class="num">02</span> AGENT DOSSIER</h2>
+    <p class="sec-sub">Tap the file to declassify. Some details remain <span class="redacted-inline">REDACTED</span>.</p>
+    <div class="dossier-deck">
+      <div class="dossier-card" tabindex="0">
+        <div class="dc-front">
+          <div class="dc-photo">🕵️‍♀️</div>
+          <div class="dc-meta">
+            <p class="dc-name">AGENT CIARA</p>
+            <p class="dc-id">ID&nbsp;//&nbsp;<span class="mono">007-CIA-LDN</span></p>
+            <span class="dc-tap">▸ TAP TO DECLASSIFY</span>
+          </div>
+        </div>
+        <div class="dc-back">
+          <p><b>CODENAME:</b> The Fox</p>
+          <p><b>STATUS:</b> Active · Cleared for London</p>
+          <p><b>SPECIALITY:</b> Charm, recon &amp; finding the best coffee</p>
+          <p><b>LICENCE:</b> To explore</p>
+          <p><b>KNOWN ALIASES:</b> <span class="redacted">█████████</span></p>
+          <p><b>WEAKNESS:</b> <span class="redacted">█████ scones █████</span></p>
+          <p class="dc-foot">CLEARANCE: ULTRA · DESTROY AFTER READING</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CIPHER ============ -->
+  <section id="cipher" class="section">
+    <h2 class="sec-title"><span class="num">03</span> THE ENCRYPTED MESSAGE</h2>
+    <p class="sec-sub">HQ intercepted a coded transmission. It's a <b>Caesar cipher</b> — slide the dial until the message makes sense.</p>
+    <div class="cipher-box">
+      <p class="cipher-cipher" id="cipher-out"></p>
+      <div class="cipher-controls">
+        <button id="shift-down">◀ SHIFT</button>
+        <div class="dial">
+          <span class="dial-label">KEY</span>
+          <span class="dial-num" id="shift-val">0</span>
+        </div>
+        <button id="shift-up">SHIFT ▶</button>
+      </div>
+      <p class="cipher-status" id="cipher-status">Awaiting decryption…</p>
+    </div>
+  </section>
+
+  <!-- ============ LONDON MAP ============ -->
+  <section id="map" class="section">
+    <h2 class="sec-title"><span class="num">04</span> SURVEILLANCE MAP — LONDON</h2>
+    <p class="sec-sub">Five drop points across the city. Investigate each landmark to recover a hidden clue.</p>
+    <div class="map-wrap">
+      <div class="map-grid">
+
+        <button class="loc" data-loc="bigben">
+          <div class="loc-icon">🕰️</div>
+          <div class="loc-name">Big Ben &amp; Westminster</div>
+        </button>
+
+        <button class="loc" data-loc="eye">
+          <div class="loc-icon">🎡</div>
+          <div class="loc-name">The London Eye</div>
+        </button>
+
+        <button class="loc" data-loc="baker">
+          <div class="loc-icon">🔍</div>
+          <div class="loc-name">221B Baker Street</div>
+        </button>
+
+        <button class="loc" data-loc="tower">
+          <div class="loc-icon">🌉</div>
+          <div class="loc-name">Tower Bridge</div>
+        </button>
+
+        <button class="loc" data-loc="mi6">
+          <div class="loc-icon">🏢</div>
+          <div class="loc-name">SIS Building, Vauxhall</div>
+        </button>
+
+        <button class="loc" data-loc="phonebox">
+          <div class="loc-icon">📞</div>
+          <div class="loc-name">The Red Phone Box</div>
+        </button>
+
+        <button class="loc" data-loc="cab">
+          <div class="loc-icon">🚕</div>
+          <div class="loc-name">The Black Cab</div>
+        </button>
+
+        <button class="loc" data-loc="tube">
+          <div class="loc-icon">🚇</div>
+          <div class="loc-name">Mind the Gap</div>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GADGETS ============ -->
+  <section id="gadgets" class="section">
+    <h2 class="sec-title"><span class="num">05</span> Q-BRANCH · STANDARD ISSUE</h2>
+    <p class="sec-sub">Quartermaster has signed out the following. Try not to lose them this time.</p>
+    <div class="gadget-grid">
+      <div class="gadget"><div class="g-ico">☂️</div><h4>Tactical Umbrella</h4><p>For rain and… discretion. This <i>is</i> London.</p></div>
+      <div class="gadget"><div class="g-ico">⌚</div><h4>Comms Watch</h4><p>Tells the time. Also tells M where you are. Mostly the time.</p></div>
+      <div class="gadget"><div class="g-ico">🎫</div><h4>Oyster Card</h4><p>Grants passage on all Underground lines. Keep it topped up.</p></div>
+      <div class="gadget"><div class="g-ico">🫖</div><h4>Emergency Teabag</h4><p>Restores composure. Effective against jet lag and queues.</p></div>
+      <div class="gadget"><div class="g-ico">🕶️</div><h4>Cover Shades</h4><p>Blend in. Look mysterious. Hide that you're loving it.</p></div>
+      <div class="gadget"><div class="g-ico">🗺️</div><h4>Encrypted A–Z</h4><p>The classic London map. Coordinates inside this very dossier.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ ACCEPT ============ -->
+  <section id="accept" class="section accept-sec">
+    <h2 class="sec-title"><span class="num">06</span> DO YOU ACCEPT?</h2>
+    <p class="sec-sub">This message will self-destruct from your memory the moment you board the plane.</p>
+    <div class="accept-box">
+      <p id="accept-msg" class="accept-msg">Five clues. One city. One agent good enough for the job.</p>
+      <button id="accept-btn" class="accept-btn">✔ I ACCEPT THE MISSION</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>SECRET INTELLIGENCE SERVICE · VAUXHALL CROSS, LONDON SE1</p>
+    <p class="tiny">This dossier was assembled for Agent Ciara. Unauthorised reading is, frankly, very rude. 🇬🇧</p>
+  </footer>
+</main>
+
+<!-- ============ LOCATION MODAL ============ -->
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+    <div class="modal-stamp" id="modal-stamp">DECLASSIFIED</div>
+    <div class="modal-icon" id="modal-icon">📍</div>
+    <h3 id="modal-title">Location</h3>
+    <p id="modal-body" class="modal-body"></p>
+    <div class="modal-clue" id="modal-clue-wrap">
+      <span class="clue-label">🔑 CLUE RECOVERED</span>
+      <p id="modal-clue"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FINAL OVERLAY ============ -->
+<div id="final" class="final hidden">
+  <canvas id="confetti"></canvas>
+  <div class="final-inner">
+    <h2>MISSION ACCEPTED</h2>
+    <p class="final-sub">Welcome aboard, Agent Ciara.</p>
+    <p class="final-text" id="final-text"></p>
+    <p class="final-sign">London is waiting. Don't keep her.</p>
+    <button id="final-close" class="final-close">CLOSE FILE</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
