@@ -38,7 +38,16 @@ function typeBoot() {
     setTimeout(typeBoot, 160);
   }
 }
-window.addEventListener("load", () => setTimeout(typeBoot, 400));
+// Start the boot sequence as soon as the DOM is ready. We deliberately avoid
+// the window "load" event because some preview wrappers (e.g. htmlpreview)
+// inject the page after "load" has already fired, which would leave the
+// terminal stuck on an empty screen.
+function bootStart() { setTimeout(typeBoot, 400); }
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", bootStart);
+} else {
+  bootStart();
+}
 
 /* ---------- AUTH ---------- */
 function authenticate() {
