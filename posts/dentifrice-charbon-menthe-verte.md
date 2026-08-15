@@ -1,19 +1,48 @@
 # Dentifrice en poudre — Charbon Actif & Menthe Verte
 
+**Nom exact :** Dentifrice Charbon Actif et Menthe Verte
 **Marque :** Harmony Swiss Natural
 **Boutique :** Les Paillettes Vertes
 **Lien produit :** https://www.lespaillettesvertes.ch/produit/dentifrice-charbon-menthe-verte/
+**Contenance :** 70 g
 **Visuel :** pot en verre, poudre grise, couvercle blanc, étiquette montagne + Swiss Made
 
-**Angles principaux :** ✈️ voyage (ne compte pas dans la limite des liquides en cabine) · 🪥 une autre façon, plus efficace, de se brosser les dents · ♻️ zéro plastique · 🇨🇭 Swiss Made
+**Angles principaux :** ✈️ voyage (ne compte pas dans la limite des liquides en cabine) · 🪥 une autre façon, plus efficace, de se brosser les dents · 🌿 100 % naturel, vegan, bio & Ecocert · ♻️ zéro plastique · 🇨🇭 Swiss Made
 
-> ⚠️ À compléter avant publication : **prix (CHF)**, **contenance (g)** et **liste INCI complète**.
-> Ces informations n'ont pas pu être vérifiées sur la fiche produit — ne rien publier sans les avoir confirmées.
->
-> ⚠️ Prudence réglementaire (cosmétiques, Suisse/UE) : éviter les allégations de type
-> « blanchit les dents », « détruit les bactéries », « élimine le tartre », « soigne ».
-> Les formulations ci-dessous restent sensorielles et factuelles
-> (« sensation de propreté », « aide à éliminer les taches de surface », « haleine fraîche »).
+> ⚠️ Reste à compléter avant publication : **le prix (CHF)**.
+
+---
+
+## Fiche produit — informations vérifiées
+
+**INCI (70 g) :**
+Calcium Carbonate, Bentonite\*\*, Kaolin (White Clay)\*\*, Sodium Bicarbonate (sans aluminium), Xylitol, Charcoal\*, Sodium Chloride, Mentha Spicata (Spearmint) Oil\*
+\* Biologique · \*\* Ecocert
+
+**Arguments issus de la composition :**
+
+| Ingrédient | À raconter |
+|---|---|
+| Carbonate de calcium | Le nettoyant doux de base — la « craie » qui polit sans agresser |
+| Bentonite & kaolin (Ecocert) | Deux argiles qui absorbent et reminéralisent la sensation de propreté |
+| Bicarbonate de soude **sans aluminium** | Précision rare et rassurante : à mettre en avant |
+| Xylitol | Apporte une légère douceur… sans sucre. C'est ce qui rend la poudre agréable |
+| Charbon actif **bio** | L'ingrédient signature, la couleur grise, l'effet « waouh » |
+| Sel marin | Pour l'équilibre et la sensation de fraîcheur |
+| HE de menthe verte **bio** | La fraîcheur franche, sans goût médicinal |
+
+**Sans :** fluor · glycérine · parabènes · ammonium · conservateurs · OGM · gluten · lactose · colorants synthétiques · parfums artificiels
+**Autres attributs :** 100 % naturel · vegan · artisanal · Swiss Made
+
+> ⚠️ Note sur les allégations : la fiche produit de la boutique emploie
+> « effet blanchissant », « protection anti-tartre » et « formule antibactérienne
+> et antiseptique ». Ce sont des allégations d'efficacité, qui doivent pouvoir être
+> justifiées par un dossier produit (réglementation cosmétique CH/UE) — la
+> responsabilité revient à la marque, pas au canal social. Les textes ci-dessous
+> reprennent donc volontairement des formulations plus sensorielles
+> (« sensation de propreté », « aide à éliminer les taches de surface », « éclat »).
+> Si vous souhaitez aligner les posts sur le vocabulaire exact du site,
+> voir la section **« Variantes alignées sur la fiche produit »** en fin de document.
 
 ---
 
@@ -28,11 +57,13 @@
 > Notre **Dentifrice en poudre Charbon Actif & Menthe Verte** de Harmony Swiss Natural, c'est :
 > ✈️ **LA solution voyage** : c'est une poudre, donc elle ne compte pas dans votre limite de liquides en cabine. Plus de sachet transparent, plus de tube confisqué, plus de dentifrice explosé au fond de la trousse 🙌
 > 🪥 **une autre façon de se brosser les dents** — plus efficace, parce que la poudre agit directement au contact de l'émail, sans être diluée
-> 🖤 du charbon actif, pour cette sensation de propreté qui dure
-> 🌱 de la menthe verte, pour une haleine fraîche toute la journée
-> 🇨🇭 fabriqué en Suisse, en petites quantités
+> 🖤 du charbon actif **bio**, pour cette sensation de propreté qui dure
+> 🌱 de l'huile essentielle de menthe verte **bio**, pour une haleine fraîche toute la journée
+> 🤍 des argiles blanche et bentonite **Ecocert**, du bicarbonate **sans aluminium** et du xylitol : 8 ingrédients, pas un de plus
+> 🚫 sans fluor, sans glycérine, sans parabènes, sans conservateurs — vegan et 100 % naturel
+> 🇨🇭 fabriqué en Suisse, artisanalement, en petites quantités
 > ♻️ zéro plastique, zéro tube écrasé au fond du lavabo
-> 💧 format ultra-concentré, sans eau : léger dans la valise, et un pot dure longtemps
+> 💧 format ultra-concentré, sans eau : 70 g légers dans la valise, et un pot dure longtemps
 >
 > **Comment on l'utilise ?**
 > On humidifie sa brosse à dents, on la trempe légèrement dans la poudre (ou on en prélève avec une petite cuillère 🥄), et on se brosse les dents comme d'habitude. C'est tout.
@@ -92,7 +123,7 @@
 | Slide | Visuel | Texte à l'écran |
 |---|---|---|
 | 1 | Pack shot sur fond vert | **Et si votre dentifrice tenait dans un pot en verre ?** 🖤 |
-| 2 | Gros plan sur la poudre | **Charbon actif + menthe verte.** Une sensation de propreté nette, une haleine fraîche. |
+| 2 | Gros plan sur la poudre | **8 ingrédients. C'est tout.** Argiles Ecocert, charbon actif bio, bicarbonate sans aluminium, xylitol, menthe verte bio. |
 | 3 | Brosse à dents humidifiée trempée dans le pot | **Une autre façon de se brosser les dents :** la poudre agit sans être diluée. Plus efficace, tout simplement. |
 | 4 | Pot dans une trousse de toilette + passeport | ✈️ **Ce n'est pas un liquide.** Donc pas de sachet transparent, pas de limite en cabine, pas de tube confisqué. |
 | 5 | Comparatif visuel pot vs. tubes | **1 pot = plusieurs tubes en moins** dans la poubelle ♻️ |
@@ -161,10 +192,12 @@
 > Ce qu'on aime :
 > ✈️ **Idéal pour voyager** : c'est une poudre, elle n'entre donc pas dans la limite des liquides en bagage cabine. Fini le tube dans le sachet transparent, fini le dentifrice qui fuit dans la valise à cause de la pression.
 > 🪥 **Une autre manière de se brosser les dents** : la poudre agit directement au contact de la brosse humide, sans être diluée dans une pâte — un brossage plus efficace, et une sensation de propreté immédiate.
-> 🖤 Le charbon actif, pour cette impression de netteté qui dure
+> 🌿 **Une composition courte et lisible** : carbonate de calcium, argiles bentonite et kaolin certifiées Ecocert, bicarbonate de soude sans aluminium, xylitol, charbon actif bio, sel marin et huile essentielle de menthe verte bio. Huit ingrédients, tous prononçables.
+> 🚫 **Et rien d'autre** : sans fluor, sans glycérine, sans parabènes, sans ammonium, sans conservateurs, sans OGM, sans gluten ni lactose, sans colorants ni parfums artificiels. Vegan et artisanal.
+> 🖤 Le charbon actif bio, pour cette impression de netteté qui dure
 > 🌱 La menthe verte, franche et fraîche (pas de goût médicinal)
 > 🇨🇭 Une fabrication suisse, en petites quantités
-> ♻️ Un contenant en verre, réutilisable une fois vide
+> ♻️ Un contenant en verre de 70 g, réutilisable une fois vide
 > 💧 Un format concentré, sans eau : léger à transporter, et un pot vous accompagne longtemps
 >
 > **Mode d'emploi :** humidifiez votre brosse à dents, trempez-la légèrement dans la poudre (ou prélevez-en avec une petite cuillère pour préserver le pot), puis brossez comme d'habitude. Rincez. C'est tout !
@@ -180,7 +213,7 @@
 **Titre :** Dentifrice en poudre charbon actif & menthe verte — l'indispensable voyage zéro déchet
 **Description :**
 
-> Remplacez votre tube de dentifrice par un pot en verre 🖤 Ce dentifrice en poudre au charbon actif et à la menthe verte, fabriqué en Suisse par Harmony Swiss Natural, offre une sensation de propreté nette et une haleine fraîche — sans plastique. Son atout voyage : comme ce n'est pas un liquide, il ne compte pas dans la limite des liquides en bagage cabine, ne fuit pas et ne s'écrase pas. Il suffit d'humidifier sa brosse à dents, de la tremper dans la poudre et de brosser — la poudre agit sans être diluée. Un geste zéro déchet simple, à la maison comme en voyage. À découvrir chez Les Paillettes Vertes.
+> Remplacez votre tube de dentifrice par un pot en verre 🖤 Ce dentifrice en poudre 100 % naturel et vegan (70 g), fabriqué artisanalement en Suisse par Harmony Swiss Natural, réunit huit ingrédients seulement : argiles bentonite et kaolin Ecocert, bicarbonate de soude sans aluminium, xylitol, charbon actif bio et huile essentielle de menthe verte bio. Sans fluor, sans glycérine, sans parabènes ni conservateurs. Il offre une sensation de propreté nette et une haleine fraîche — sans plastique. Son atout voyage : comme ce n'est pas un liquide, il ne compte pas dans la limite des liquides en bagage cabine, ne fuit pas et ne s'écrase pas. Il suffit d'humidifier sa brosse à dents, de la tremper dans la poudre et de brosser — la poudre agit sans être diluée. Un geste zéro déchet simple, à la maison comme en voyage. À découvrir chez Les Paillettes Vertes.
 
 **Hashtags :** #ZeroDechet #DentifricePoudre #CharbonActif #VoyageZeroDechet #BagageCabine #SalleDeBainZeroDechet #CosmetiqueNaturelle #SwissMade
 
@@ -228,6 +261,28 @@
 - **Réponses préparées aux questions fréquentes :**
   - *« Est-ce que ça abîme l'émail ? »* → Renvoyer vers la fiche produit et recommander un brossage doux, sans frotter. Ne pas donner de conseil dentaire ; inviter à demander l'avis de son dentiste.
   - *« Ça blanchit ? »* → Rester factuel : le charbon actif aide à éliminer les taches de surface. Ne pas promettre de blanchiment.
-  - *« Il y a du fluor ? »* → À confirmer sur la fiche produit avant de répondre.
-  - *« Ça dure combien de temps ? »* → À confirmer (dépend de la contenance).
-  - *« C'est vraiment autorisé en cabine ? »* → Oui : les règles de sûreté aérienne (Suisse/UE) limitent les **liquides, gels et aérosols** à 100 ml par contenant. Les poudres n'entrent pas dans cette catégorie et voyagent en bagage cabine sans sachet transparent. À noter : certaines destinations (notamment les vols vers les États-Unis et l'Australie) appliquent des contrôles supplémentaires sur les poudres au-delà d'environ 350 ml / 350 g — un pot de dentifrice reste très en dessous de ce seuil.
+  - *« Il y a du fluor ? »* → Non, la formule est sans fluor (ni glycérine, parabènes, ammonium, conservateurs, OGM, gluten, lactose, colorants ou parfums artificiels). Si la personne cherche spécifiquement un dentifrice fluoré, l'orienter vers son dentiste plutôt que d'argumenter.
+  - *« C'est vegan ? »* → Oui, formule 100 % végétalienne et artisanale. Charbon actif et huile essentielle de menthe verte biologiques ; argiles bentonite et kaolin certifiées Ecocert.
+  - *« Le bicarbonate, ce n'est pas trop abrasif ? »* → Rester factuel : il est présent en petite proportion, après le carbonate de calcium et les argiles, et il est **sans aluminium**. Recommander un brossage doux.
+  - *« Ça dure combien de temps ? »* → Le pot fait 70 g. Ne pas avancer de durée précise sans donnée de la marque ; répondre plutôt « cela dépend de la quantité prélevée, mais le format concentré dure nettement plus longtemps qu'un tube de volume équivalent ».
+  - *« C'est vraiment autorisé en cabine ? »* → Oui : les règles de sûreté aérienne (Suisse/UE) limitent les **liquides, gels et aérosols** à 100 ml par contenant. Les poudres n'entrent pas dans cette catégorie et voyagent en bagage cabine sans sachet transparent. À noter : certaines destinations (notamment les vols vers les États-Unis et l'Australie) appliquent des contrôles supplémentaires sur les poudres au-delà d'environ 350 ml / 350 g — un pot de 70 g reste très en dessous de ce seuil.
+
+---
+
+## Variantes alignées sur la fiche produit
+
+À utiliser **uniquement** si la marque assume les allégations d'efficacité déjà
+publiées sur lespaillettesvertes.ch (effet blanchissant, anti-tartre,
+antibactérien) et dispose du dossier justificatif correspondant.
+Sinon, conserver les versions sensorielles ci-dessus.
+
+**Bloc bénéfices, version site :**
+
+> ✨ **Éclat et fraîcheur** : le charbon actif apporte un effet blanchissant, la menthe verte une sensation de fraîcheur durable
+> 🛡️ **Protection anti-tartre** : efficace contre la formation de tartre et de plaque dentaire
+> 🌿 **Nettoyage en profondeur** grâce aux argiles, au charbon actif et aux sels naturels
+> ⚖️ Une formule antibactérienne et antiseptique qui contribue à équilibrer le pH de la bouche
+
+**Accroche courte, version site :**
+
+> Transformez votre routine d'hygiène bucco-dentaire avec un dentifrice 100 % naturel 🌿 Argiles, charbon actif et sels naturels pour un nettoyage en profondeur — sans fluor, sans conservateurs, sans produits chimiques nocifs.
