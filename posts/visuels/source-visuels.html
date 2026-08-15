@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+
+<style>
+  :root{
+    --green-dark:#2F6B3F;
+    --green:#4C8C5A;
+    --mint:#CFE7D6;
+    --mint-soft:#DFEEE3;
+    --cream:#F6F3EC;
+    --ink:#1E2A22;
+    --charcoal:#4A4F4B;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#888;font-family:'DejaVu Sans','Liberation Sans',sans-serif}
+
+  .card{position:relative;overflow:hidden;display:flex;flex-direction:column}
+  .sq{width:1080px;height:1080px}
+  .pt{width:1080px;height:1350px}
+  .st{width:1080px;height:1920px}
+
+  /* soft organic watercolour blob background */
+  .blob{position:absolute;border-radius:50%;filter:blur(2px);opacity:.55}
+
+  .serif{font-family:'Bitstream Charter','Liberation Serif',serif}
+
+  /* ---------- shared frame ---------- */
+  .frame{position:absolute;inset:34px;border:1px solid rgba(47,107,63,.28);pointer-events:none}
+
+  .brand{font-size:19px;letter-spacing:.34em;text-transform:uppercase;color:var(--green-dark);font-weight:500}
+
+  .badge{
+    position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    background:var(--green-dark);color:#fff;border-radius:50%;
+    box-shadow:0 10px 34px rgba(47,107,63,.30);
+  }
+
+  .photo-slot{
+    border:2px dashed rgba(47,107,63,.42);border-radius:14px;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    color:var(--green-dark);background:rgba(255,255,255,.42);
+  }
+  .slot-label{font-size:23px;letter-spacing:.06em;line-height:1.5;opacity:.85;padding:0 30px}
+
+  /* mountain motif echoing the label */
+  .mtn{position:absolute;opacity:.16}
+</style>
+</head>
+<body>
+
+<!-- ================= 1. FEED 1:1 — travel hook ================= -->
+<div class="card sq" id="c1" style="background:var(--cream)">
+  <div class="blob" style="width:900px;height:820px;left:-230px;top:-250px;background:var(--mint)"></div>
+  <div class="blob" style="width:640px;height:600px;right:-190px;bottom:-190px;background:var(--mint-soft)"></div>
+  <svg class="mtn" style="right:56px;top:78px;width:210px" viewBox="0 0 200 110">
+    <path d="M6 104 L58 22 L92 68 L118 40 L164 104 Z" fill="#2F6B3F"/>
+    <path d="M104 104 L142 46 L192 104 Z" fill="#4C8C5A"/>
+  </svg>
+  <div class="frame"></div>
+
+  <div style="position:relative;padding:96px 92px 0">
+    <div class="brand">Les Paillettes Vertes</div>
+  </div>
+
+  <div style="position:relative;padding:44px 92px 0;flex:1;display:flex;flex-direction:column;justify-content:center">
+    <div style="font-size:26px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:26px">
+      ✈️&nbsp;&nbsp;Astuce bagage cabine
+    </div>
+    <div class="serif" style="font-size:98px;line-height:1.03;color:var(--ink);font-weight:600;letter-spacing:-.5px">
+      Le dentifrice<br/>qui passe la<br/><span style="color:var(--green-dark)">sécurité</span> de<br/>l’aéroport.
+    </div>
+    <div style="width:96px;height:3px;background:var(--green);margin:44px 0 34px"></div>
+    <div style="font-size:34px;line-height:1.45;color:var(--charcoal);font-weight:300;max-width:800px">
+      C’est une poudre — elle ne compte pas dans<br/>votre limite de liquides. 🖤
+    </div>
+  </div>
+
+  <div style="position:relative;padding:0 92px 88px;display:flex;align-items:flex-end;justify-content:space-between">
+    <div style="font-size:27px;color:var(--green-dark);font-weight:400;line-height:1.5">
+      Charbon actif &amp; menthe verte<br/>
+      <span style="color:var(--charcoal);font-weight:300">Harmony Swiss Natural · 70 g · 🇨🇭</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= 2. FEED 4:5 — promo -25% with photo slot ================= -->
+<div class="card pt" id="c2" style="background:var(--mint)">
+  <div class="blob" style="width:1000px;height:900px;left:-180px;bottom:-330px;background:var(--mint-soft);opacity:.85"></div>
+  <div class="frame" style="border-color:rgba(47,107,63,.34)"></div>
+
+  <div class="badge" style="width:196px;height:196px;right:70px;top:196px;z-index:5">
+    <div style="font-size:66px;font-weight:600;line-height:1">−25%</div>
+    <div style="font-size:20px;letter-spacing:.16em;text-transform:uppercase;font-weight:300;margin-top:6px">Offre</div>
+  </div>
+
+  <div style="position:relative;padding:92px 88px 0">
+    <div class="brand">Les Paillettes Vertes</div>
+  </div>
+
+  <!-- product photo slot -->
+  <div style="position:relative;padding:44px 88px 0;display:flex;justify-content:center">
+    <div class="photo-slot" style="width:560px;height:470px">
+      <div class="slot-label">Placez ici votre photo<br/>du produit (pack shot)</div>
+    </div>
+  </div>
+
+  <div style="position:relative;padding:52px 88px 0;text-align:center">
+    <div class="serif" style="font-size:74px;line-height:1.08;color:var(--ink);font-weight:600">
+      Dentifrice en poudre<br/><span style="color:var(--green-dark)">Charbon &amp; Menthe verte</span>
+    </div>
+    <div style="margin-top:34px;font-size:38px;color:var(--charcoal);font-weight:300">
+      <span style="text-decoration:line-through;opacity:.55">CHF 28.—</span>
+      &nbsp;&nbsp;<span style="color:var(--green-dark);font-weight:500;font-size:52px">CHF 21.—</span>
+    </div>
+  </div>
+
+  <div style="position:relative;margin-top:auto;padding:0 88px 86px;text-align:center">
+    <div style="font-size:29px;color:var(--green-dark);font-weight:400;letter-spacing:.03em">
+      lespaillettesvertes.ch
+    </div>
+  </div>
+</div>
+
+<!-- ================= 3. CAROUSEL SLIDE — 8 ingrédients ================= -->
+<div class="card pt" id="c3" style="background:var(--cream)">
+  <div class="blob" style="width:760px;height:700px;right:-220px;top:-200px;background:var(--mint)"></div>
+  <div class="frame"></div>
+
+  <div style="position:relative;padding:96px 92px 0">
+    <div class="brand">La composition</div>
+  </div>
+
+  <div style="position:relative;padding:46px 92px 0">
+    <div class="serif" style="font-size:108px;line-height:1.04;color:var(--ink);font-weight:600">
+      8 ingrédients.<br/><span style="color:var(--green-dark)">C’est tout.</span>
+    </div>
+    <div style="width:96px;height:3px;background:var(--green);margin:42px 0 8px"></div>
+  </div>
+
+  <div style="position:relative;padding:40px 92px 0;font-size:36px;line-height:2.35;color:var(--charcoal);font-weight:300;flex:1">
+    <div>🤍&nbsp;&nbsp;Argiles bentonite &amp; kaolin <b style="font-weight:500;color:var(--ink)">Ecocert</b></div>
+    <div>🖤&nbsp;&nbsp;Charbon actif <b style="font-weight:500;color:var(--ink)">bio</b></div>
+    <div>🌱&nbsp;&nbsp;Menthe verte <b style="font-weight:500;color:var(--ink)">bio</b></div>
+    <div>🧂&nbsp;&nbsp;Bicarbonate <b style="font-weight:500;color:var(--ink)">sans aluminium</b></div>
+    <div>✨&nbsp;&nbsp;Xylitol &amp; carbonate de calcium</div>
+  </div>
+
+  <div style="position:relative;margin-top:auto;padding:0 92px 88px">
+    <div style="font-size:29px;line-height:1.55;color:var(--green-dark);font-weight:400">
+      Sans fluor · sans conservateurs · vegan<br/>
+      <span style="color:var(--charcoal);font-weight:300">Fabriqué en Suisse 🇨🇭</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= 4. STORY 9:16 — promo ================= -->
+<div class="card st" id="c4" style="background:var(--cream)">
+  <div class="blob" style="width:1100px;height:1000px;left:-250px;top:-300px;background:var(--mint)"></div>
+  <div class="blob" style="width:900px;height:820px;right:-300px;bottom:-260px;background:var(--mint-soft)"></div>
+  <div class="frame" style="inset:44px"></div>
+
+  <div style="position:relative;padding:180px 100px 0;text-align:center">
+    <div class="brand">Les Paillettes Vertes</div>
+  </div>
+
+  <div style="position:relative;padding:70px 100px 0;display:flex;justify-content:center">
+    <div class="photo-slot" style="width:660px;height:640px;border-radius:50%">
+      <div class="slot-label">Photo produit<br/>ici</div>
+    </div>
+  </div>
+
+  <div style="position:relative;padding:80px 100px 0;text-align:center">
+    <div style="font-size:30px;letter-spacing:.18em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:30px">
+      ✈️&nbsp;&nbsp;Le format qui voyage
+    </div>
+    <div class="serif" style="font-size:92px;line-height:1.06;color:var(--ink);font-weight:600">
+      Ce n’est pas<br/>un liquide.
+    </div>
+    <div style="margin-top:38px;font-size:36px;line-height:1.5;color:var(--charcoal);font-weight:300">
+      Aucune limite en cabine,<br/>aucune fuite dans la valise.
+    </div>
+  </div>
+
+  <div style="position:relative;margin-top:auto;padding:0 100px 190px;text-align:center">
+    <div style="display:inline-block;background:var(--green-dark);color:#fff;border-radius:100px;padding:30px 66px;font-size:38px;font-weight:400;letter-spacing:.03em">
+      −25 % · CHF 21.—
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
