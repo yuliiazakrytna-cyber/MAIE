@@ -1,15 +1,23 @@
 # Dentifrice en poudre — Charbon Actif & Menthe Verte
 
-**Nom exact :** Dentifrice Charbon Actif et Menthe Verte
+**Nom en boutique :** Dentifrice Charbon Menthe verte 100% Naturel
+**Nom sur l'étiquette :** Dentifrice en poudre — Menthe Verte & Charbon Actif
 **Marque :** Harmony Swiss Natural
-**Boutique :** Les Paillettes Vertes
+**Boutique :** Les Paillettes Vertes (rayon Cosmétiques › Produits cosmétiques)
 **Lien produit :** https://www.lespaillettesvertes.ch/produit/dentifrice-charbon-menthe-verte/
 **Contenance :** 70 g
+**Prix :** ~~CHF 28.00~~ → **CHF 21.00 (−25 %)**
+**Avis :** ★★★★★ — 5/5 (2 avis clients)
+**Programme fidélité :** éco-points en se connectant avant l'achat
 **Visuel :** pot en verre, poudre grise, couvercle blanc, étiquette montagne + Swiss Made
 
-**Angles principaux :** ✈️ voyage (ne compte pas dans la limite des liquides en cabine) · 🪥 une autre façon, plus efficace, de se brosser les dents · 🌿 100 % naturel, vegan, bio & Ecocert · ♻️ zéro plastique · 🇨🇭 Swiss Made
+**Angles principaux :** 🏷️ promo −25 % · ✈️ voyage (ne compte pas dans la limite des liquides en cabine) · 🪥 une autre façon, plus efficace, de se brosser les dents · 🌿 100 % naturel, vegan, bio & Ecocert · ♻️ zéro plastique · 🇨🇭 Swiss Made
 
-> ⚠️ Reste à compléter avant publication : **le prix (CHF)**.
+> 🏷️ **Promo en cours : −25 %, soit CHF 21.00 au lieu de CHF 28.00.**
+> Les mentions de prix et de remise sont regroupées ci-dessous et signalées par 🏷️
+> dans chaque post : **pensez à les retirer dès la fin de l'opération** pour ne pas
+> laisser en ligne une offre expirée.
+> Voir aussi la section **« Posts promo −25 % »** pour les versions à durée limitée.
 
 ---
 
@@ -69,6 +77,8 @@ Calcium Carbonate, Bentonite\*\*, Kaolin (White Clay)\*\*, Sodium Bicarbonate (s
 > On humidifie sa brosse à dents, on la trempe légèrement dans la poudre (ou on en prélève avec une petite cuillère 🥄), et on se brosse les dents comme d'habitude. C'est tout.
 >
 > Oui, la première fois, voir sa mousse devenir grise, ça surprend. Puis on ne peut plus s'en passer 🖤
+>
+> 🏷️ En ce moment **CHF 21.00 au lieu de 28.00 (−25 %)** — et pensez à vous connecter avant de commander pour cumuler vos éco-points 🌱
 >
 > 👉 Disponible sur lespaillettesvertes.ch (lien en bio)
 >
@@ -204,6 +214,8 @@ Calcium Carbonate, Bentonite\*\*, Kaolin (White Clay)\*\*, Sodium Bicarbonate (s
 >
 > Petite surprise garantie la première fois : la mousse devient grise. C'est normal — et ça part au rinçage 😊
 >
+> 🏷️ **Actuellement en promotion : CHF 21.00 au lieu de CHF 28.00 (−25 %)**, pour le pot de 70 g. Connectez-vous avant de commander pour gagner des éco-points sur votre achat 🌱
+>
 > 👉 À découvrir ici : https://www.lespaillettesvertes.ch/produit/dentifrice-charbon-menthe-verte/
 
 ---
@@ -253,10 +265,47 @@ Calcium Carbonate, Bentonite\*\*, Kaolin (White Clay)\*\*, Sodium Bicarbonate (s
 
 ---
 
+## 12. 🏷️ Posts promo −25 % (durée limitée)
+
+> ⚠️ À dépublier ou à modifier dès la fin de l'opération.
+
+**Instagram / Facebook — annonce de l'offre :**
+
+> 🏷️ **−25 % sur notre dentifrice en poudre charbon & menthe verte.**
+> CHF 21.00 au lieu de CHF 28.00 — le pot de 70 g, fabriqué en Suisse 🇨🇭
+>
+> C'est le moment idéal pour tester : le format concentré dure longtemps, et comme ce n'est pas un liquide, il vous suivra partout cet été sans entamer votre quota de liquides en cabine ✈️
+>
+> 🖤 Charbon actif bio & menthe verte bio
+> 🤍 Argiles Ecocert, bicarbonate sans aluminium, xylitol — 8 ingrédients, c'est tout
+> 🚫 Sans fluor, sans conservateurs, vegan
+> ♻️ Pot en verre réutilisable, zéro plastique
+>
+> 🌱 Petit rappel : connectez-vous avant de commander pour cumuler vos éco-points.
+>
+> 👉 Lien en bio
+>
+> #Promo #ZeroDechet #DentifricePoudre #CharbonActif #SwissMade #BonPlan #LesPaillettesVertes #ZeroWasteSuisse
+
+**Story — rappel de fin d'offre :**
+
+> Écran 1 : *« −25 % sur le dentifrice en poudre 🖤 CHF 21.— au lieu de 28.— »* + sticker compte à rebours
+> Écran 2 : *« Le format qui voyage sans limite ✈️ »* + sticker lien
+
+**Story — preuve sociale :**
+
+> *« ★★★★★ — noté 5/5 par nos client·es 🖤 »* sur fond de pack shot + sticker lien
+> (à réactualiser au fil des avis ; aujourd'hui 2 avis, tous 5 étoiles)
+
+---
+
 ## Notes de publication
 
 - **Meilleur créneau** (audience romande) : mardi–jeudi, 12 h–13 h ou 18 h–20 h.
 - **Saisonnalité :** pousser l'angle voyage avant les vacances (mai–juillet, et décembre) — c'est l'accroche la plus partageable.
+- **Prix et promo :** toutes les mentions tarifaires sont signalées par 🏷️ dans ce document. À la fin de l'opération −25 %, retirer ces blocs et la section 12, sinon les posts continueront d'afficher une offre expirée (et un prix barré, ce que la LCD sanctionne s'il n'est plus d'actualité).
+- **Preuve sociale :** 2 avis, 5/5. C'est peu pour en faire un argument central, mais suffisant pour une story ou un sticker. Penser à solliciter des avis après achat pour étoffer.
+- **Éco-points :** rappeler systématiquement de se connecter *avant* de commander — c'est un argument de fidélisation propre à la boutique, que la concurrence n'a pas.
 - **Premier commentaire** à poster sous l'Instagram : *« Petite astuce : prélevez la poudre avec une cuillère plutôt que de tremper directement la brosse — le pot reste nickel plus longtemps 🥄 »*
 - **Réponses préparées aux questions fréquentes :**
   - *« Est-ce que ça abîme l'émail ? »* → Renvoyer vers la fiche produit et recommander un brossage doux, sans frotter. Ne pas donner de conseil dentaire ; inviter à demander l'avis de son dentiste.
